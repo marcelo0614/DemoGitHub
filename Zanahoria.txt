@@ -1,11 +1,11 @@
-public class Manzana
+public class Zanahoria 
 {
     public static void main(String[] args) 
    {
-      String producto = "Manzanas";
-      String color = "rojas";
+      String producto = " zanahoria";
+      String color = "orange";
       String marca = "Natural";
-      int cantidad = 1;
+      int cantidad = 5;
       double precio = 0.75;
       double costo = cantidad * precio;
                System.out.println("Esto es un/a" + producto + "con costo total de " + costo);

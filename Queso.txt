@@ -1,12 +1,12 @@
-public class Jabon
+public class Queso
 {
     public static void main(String[] args) 
    {
-      String producto = "Jabon liquido";
-      String color = "Azul";
-      String marca = "CleanUp";
-      int cantidad = 8;
-      double precio = 10;
+      String producto = "Queso";
+      String color = "Blanco";
+      String marca = "Natural";
+      int cantidad = 2;
+      double precio = 3.50;
       double costo = cantidad * precio;
                System.out.println("Esto es un/a" + producto + "con costo total de " + costo);
     }
