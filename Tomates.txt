@@ -1,0 +1,13 @@
+public class Tomates
+{
+    public static void main(String[] args) 
+   {
+      String producto = "Tomates";
+      String color = "rojo";
+      String marca = "Natural";
+      int cantidad = 12;
+      double precio = 1;
+      double costo = cantidad * precio;
+               System.out.println("Esto es un/a" + producto + "con costo total de " + costo);
+    }
+}

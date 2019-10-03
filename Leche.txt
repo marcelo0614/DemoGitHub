@@ -1,0 +1,13 @@
+public class Leche
+{
+    public static void main(String[] args) 
+   {
+      String producto = "Leche evaporada";
+      String color = "Blanco";
+      String marca = "Pli";
+      int cantidad = 3;
+      double precio = 6;
+      double costo = cantidad * precio;
+               System.out.println("Esto es un/a" + producto + "con costo total de " + costo);
+    }
+}

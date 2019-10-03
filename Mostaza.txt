@@ -1,0 +1,13 @@
+public class Mostaza
+{
+    public static void main(String[] args) 
+   {
+      String producto = "Mostaza";
+      String color = "Amarillo";
+      String marca = "Kris";
+      int cantidad = 1;
+      double precio = 13;
+      double costo = cantidad * precio;
+               System.out.println("Esto es un/a" + producto + "con costo total de " + costo);
+    }
+}

@@ -1,0 +1,13 @@
+public class Carne
+{
+    public static void main(String[] args) 
+   {
+      String producto = "Carne de res";
+      String color = "rojo";
+      String marca = "Tres toros";
+      int cantidad = 1;
+      double precio = 25;
+      double costo = cantidad * precio;
+               System.out.println("Esto es un/a" + producto + "con costo total de " + costo);
+    }
+}

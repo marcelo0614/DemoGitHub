@@ -1,0 +1,13 @@
+public class Agua
+{
+    public static void main(String[] args) 
+   {
+      String producto = "Agua natural";
+      String color = "Sin Color";
+      String marca = "Vital";
+      int cantidad = 1;
+      double precio = 10;
+      double costo = cantidad * precio;
+               System.out.println("Esto es un/a" + producto + "con costo total de " + costo);
+    }
+}

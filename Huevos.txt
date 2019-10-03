@@ -1,0 +1,13 @@
+public class Huevos
+{
+    public static void main(String[] args) 
+   {
+      String producto = "Huevo criollo";
+      String color = "Blanco";
+      String marca = "Natural";
+      int cantidad = 24;
+      double precio = 0.75;
+      double costo = cantidad * precio;
+               System.out.println("Esto es un/a" + producto + "con costo total de " + costo);
+    }
+}
