@@ -10,4 +10,6 @@ public class Carne
       double costo = cantidad * precio;
                System.out.println("Esto es un/a" + producto + "con costo total de " + costo);
     }
+	public static void test()
+	{}
 }
